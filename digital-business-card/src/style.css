@@ -1,0 +1,129 @@
+body {
+    background-color: #23252C;
+    color: #FFFFFF;
+}
+
+.container {
+    background-color: #1A1B21;
+    width: 417px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+
+.info--avatar_icon {
+    width: 80%;
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.info--email_icon, .info--linkedin_icon {
+    width: 24px;
+    margin-right: 8px;
+}
+
+.info--name, .info--role {
+    text-align: center;
+}
+
+.info--name {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.info--role {
+    color: #F3BF99;
+    font-size: 18px;
+}
+
+.info--contact_buttons {
+    display: flex;
+    align-items: center;
+    margin: 0 40px 10px 40px;
+}
+
+.info--email_button {
+    padding: 8px;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+}
+
+.info--email_button span {
+    color: black;
+    font-weight: 600;
+}
+
+.info--linkedin_button {
+    padding: 8px;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+    margin: 0 auto;
+    background-color: #5093E2;
+}
+
+.info--linkedin_button span {
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+.info--email_button, .info--linkedin_button {
+    width: 130px;
+}
+
+.about--card h4 {
+    width: 367px;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+}
+
+.about--card p {
+    width: 367px;
+    color: #DCDCDC;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 4px 0 4px 0;
+}
+
+.interests--card h4 {
+    width: 367px;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+}
+
+.interests--card p {
+    width: 367px;
+    color: #DCDCDC;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    padding: 4px 0 4px 0;
+}
+
+.footer--card {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.footer--icon {
+    width: 48px;
+    padding: 8px 4px 16px 4px;
+    margin-left: auto;
+    margin-right: auto;
+    fill: white;
+}
+
+.footer-spacing {
+    padding: 16px;
+}

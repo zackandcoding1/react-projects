@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 16px;
+    display: flex;
+    font-family: "Karla", sans-serif;
+    background-color: whitesmoke;
+}
+
+p {
+    font-size: 14px;
+    margin: 10px;
+}

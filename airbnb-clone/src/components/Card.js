@@ -1,12 +1,10 @@
-import star from "../images/star.png";
-
 function Card(props) {
     return (
         <div>
             <div className="card--item">
                 <img className="card--image" src={props.img} alt="activity"/>
                 <span className="card--spacing"></span>
-                <img className="card--star" src={star} alt="star icon"/>
+                <img className="card--star" src="./images/star.png" alt="star icon"/>
                 <span> {props.rating} </span>
                 <span className="gray">({props.reviewCount}) • </span>
                 <span className="gray">{props.location} </span>

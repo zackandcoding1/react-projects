@@ -17,7 +17,7 @@ export default [
         price: 125,
         coverImg: "./images/person2.png",
         stats: {
-            rating: 5.0,
+            rating: 4.8,
             reviewCount: 30
         },
         location: "Online",
@@ -29,7 +29,7 @@ export default [
         price: 50,
         coverImg: "./images/bike.png",
         stats: {
-            rating: 5.0,
+            rating: 4.9,
             reviewCount: 2
         },
         location: "Norway",

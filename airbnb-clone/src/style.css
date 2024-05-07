@@ -4,7 +4,6 @@
 
 body {
   margin: 0;
-  width: 550px;
   font-family: 'Poppins', 'sans-serif';
 }
 
@@ -60,6 +59,7 @@ section {
   padding: 20px;
   align-items: center;
   justify-content: space-between;
+  position: relative;
 }
 
 .card--image {
@@ -77,44 +77,18 @@ section {
   height: 14px;
 }
 
-/*.card--carousel {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.card--carousel figcaption {
-  background-color: white;
-  color: black;
-  max-width: 400px;
-  font-size: 10px;
-  display: block;
-  float: left;
+.card--badge {
   position: absolute;
-  padding: 3px;
+  top: 24px;
+  left: 27px;
+  background-color: white;
+  padding: 2px 4px;
   border-radius: 2px;
+  font-weight: bold;
 }
 
-.card--carousel img {
-  width: 176px;
-  height: 235px;
-  padding: 8px;
-  border-radius: 9px;
+@media screen and (min-width: 1015px) {
+  body {
+    width: 600px;
+  }
 }
-
-.card--carousel li {
-  display: block;
-  list-style-type: none;
-}
-
-.card--carousel span {
-  align-items: center;
-  display: block;
-  font-size: 12px;
-}
-
-.card--carousel .card--star {
-  width: 32px;
-  height: 32px;
-  align-items: center;
-}*/

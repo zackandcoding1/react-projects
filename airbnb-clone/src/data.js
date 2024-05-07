@@ -1,5 +1,6 @@
 export default [
     {
+        id: 1,
         title: "Life lessons with Katie Zaferes",
         price: 136,
         coverImg: "./images/person1.png",
@@ -8,8 +9,10 @@ export default [
             reviewCount: 6
         },
         location: "Online",
+        openSpots: 0,
     },
     {
+        id: 2,
         title: "Learn wedding photography",
         price: 125,
         coverImg: "./images/person2.png",
@@ -18,8 +21,10 @@ export default [
             reviewCount: 30
         },
         location: "Online",
+        openSpots: 27,
     },
     {
+        id: 3,
         title: "Group Mountain Biking",
         price: 50,
         coverImg: "./images/bike.png",
@@ -27,6 +32,7 @@ export default [
             rating: 5.0,
             reviewCount: 2
         },
-        location: "Online",
+        location: "Norway",
+        openSpots: 3,
     },
 ]

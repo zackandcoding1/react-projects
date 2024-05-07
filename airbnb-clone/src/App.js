@@ -8,12 +8,8 @@ export default function App() {
   const cards = data.map(item => {
     return (
       <Card
-        title={item.title}
-        price={item.price}
-        img={item.coverImg}
-        rating={item.stats.rating}
-        reviewCount={item.stats.reviewCount}
-        location={item.location}
+        key={item.id}
+        {...item} // Usando "spread syntax" para passar os dados para o componente
       />
     )
   })
@@ -21,9 +17,9 @@ export default function App() {
     <div>
       <Navbar />
       <Hero />
-      <div className="card">
+      <section className="card">
         {cards}
-      </div>
+      </section>
     </div>
   );
 }
